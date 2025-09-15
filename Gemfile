@@ -63,3 +63,10 @@ group :test do
 end
 
 gem "solargraph", "~> 0.56.2"
+
+gem "prettier_print", "~> 1.2"
+gem "syntax_tree", "~> 6.3"
+gem "syntax_tree-haml", "~> 4.0"
+gem "syntax_tree-rbs", "~> 1.0"
+
+gem "prettier", "~> 4.0"
