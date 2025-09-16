@@ -72,3 +72,5 @@ gem "syntax_tree-rbs", "~> 1.0"
 gem "prettier", "~> 4.0"
 
 gem "devise", "~> 4.9"
+
+gem "tailwindcss-rails", "~> 4.3"

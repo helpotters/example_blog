@@ -388,6 +388,16 @@ GEM
       prettier_print
       rbs
       syntax_tree (>= 2.0.1)
+    tailwindcss-rails (4.3.0)
+      railties (>= 7.0.0)
+      tailwindcss-ruby (~> 4.0)
+    tailwindcss-ruby (4.1.13)
+    tailwindcss-ruby (4.1.13-aarch64-linux-gnu)
+    tailwindcss-ruby (4.1.13-aarch64-linux-musl)
+    tailwindcss-ruby (4.1.13-arm64-darwin)
+    tailwindcss-ruby (4.1.13-x86_64-darwin)
+    tailwindcss-ruby (4.1.13-x86_64-linux-gnu)
+    tailwindcss-ruby (4.1.13-x86_64-linux-musl)
     temple (0.10.4)
     thor (1.4.0)
     thruster (0.1.15)
@@ -463,6 +473,7 @@ DEPENDENCIES
   syntax_tree (~> 6.3)
   syntax_tree-haml (~> 4.0)
   syntax_tree-rbs (~> 1.0)
+  tailwindcss-rails (~> 4.3)
   thruster
   turbo-rails
   tzinfo-data
