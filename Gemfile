@@ -62,7 +62,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "solargraph", "~> 0.56.2"
+gem "solargraph", "~> 0.57.0"
 
 gem "prettier_print", "~> 1.2"
 gem "syntax_tree", "~> 6.3"
