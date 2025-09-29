@@ -3,7 +3,7 @@ class BlogPostsController < ApplicationController
   before_action :set_blog_post, except: [:index, :new, :create]
 
   def index
-    @blog_posts = BlogPost.all
+    @blog_posts = BlogPost.published
   end
 
   def show
@@ -49,6 +49,6 @@ class BlogPostsController < ApplicationController
   end 
 
   def set_blog_post
-    @blog_post = BlogPost.find(params[:id])
+    @blog_post = BlogPost.published.find(params[:id])
   end
 end
